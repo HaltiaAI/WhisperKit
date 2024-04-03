@@ -358,7 +358,6 @@ public class WhisperKit: Transcriber {
         self.tokenizer = tokenizer
         textDecoder.tokenizer = tokenizer
         Logging.debug("Loaded tokenizer")
-        Logging.debug("Loaded tokenizer")
 
         modelState = .loaded
 
